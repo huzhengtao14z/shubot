@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DU Liang | 上海机器人研究所</title>
+    <link>https://liang324.github.io/author/du-liang/</link>
+      <atom:link href="https://liang324.github.io/author/du-liang/index.xml" rel="self" type="application/rss+xml" />
+    <description>DU Liang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2020-2023 liang324</copyright><lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liang324.github.io/author/du-liang/avatar_hue196365494df74caad594af8f94eb0cd_549911_270x270_fill_lanczos_center_3.png</url>
+      <title>DU Liang</title>
+      <link>https://liang324.github.io/author/du-liang/</link>
+    </image>
+    
+    <item>
+      <title>A Robotic Gripper Design and Integrated Solution Towards Tunnel Boring Construction Equipment</title>
+      <link>https://liang324.github.io/publication/yuan2020robotic/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://liang324.github.io/publication/yuan2020robotic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design and experimental tests of an active cooling system for a kind of in-vessel inspection manipulator</title>
+      <link>https://liang324.github.io/publication/du2020design/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://liang324.github.io/publication/du2020design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paper Made Grippers for Soft Food Grasping</title>
+      <link>https://liang324.github.io/publication/ma2020paper/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://liang324.github.io/publication/ma2020paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A teleoperated robotic hot stick platform for the overhead live powerline maintenance tasks</title>
+      <link>https://liang324.github.io/publication/du2019teleoperated/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://liang324.github.io/publication/du2019teleoperated/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design of a standalone joint module toward real EAST in-vessel operation use</title>
+      <link>https://liang324.github.io/publication/du2017design/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://liang324.github.io/publication/du2017design/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

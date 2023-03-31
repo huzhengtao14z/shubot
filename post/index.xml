@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Latest News | 上海机器人研究所</title>
+    <link>https://liang324.github.io/post/</link>
+      <atom:link href="https://liang324.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Latest News</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2020-2023 liang324</copyright><lastBuildDate>Fri, 29 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liang324.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Latest News</title>
+      <link>https://liang324.github.io/post/</link>
+    </image>
+    
+    <item>
+      <title>Next stage with SHU</title>
+      <link>https://liang324.github.io/post/21-01-29-next-stage/</link>
+      <pubDate>Fri, 29 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://liang324.github.io/post/21-01-29-next-stage/</guid>
+      <description>&lt;p&gt;Dr. DU Liang has got a job offer as lecturer from the Shanghai University.&lt;/p&gt;
+&lt;p&gt;Dr. DU Liang is expected to finish his contract with the R-GIRO program in Ritsumeikan University, Japan by this March. Now, he got a new job offer as lecturer from the Shanghai University, Shanghai, China. He will work with the Shanghai Key Laboratory of Intelligent Manufacturing and Robotics, School of Mechatronic Engineering and Automation after returning China.&lt;/p&gt;
+&lt;p&gt;Shanghai University (commonly referred to as SHU, or colloquially Shangda (Chinese: 上大; pinyin: Shàngdà)) is a public research university located in Shanghai. The 555-acre main Baoshan campus is situated in the north of Shanghai, and there are two other campuses in Jiading and Jing&amp;rsquo;an. Shanghai University is amongst the list of Project 211 for top national universities. &lt;a href=&#34;https://en.wikipedia.org/wiki/Shanghai_University&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(cited from Wikipedia)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Shanghai Key Laboratory of Intelligent Manufacturing and Robotics is one famous research team in robot field in China. Their research includes industrial automation, robots for health care, robots for farming, and basic robotic theories.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Happy New Year 2021</title>
+      <link>https://liang324.github.io/post/20-12-31-happy-new-year/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://liang324.github.io/post/20-12-31-happy-new-year/</guid>
+      <description>&lt;p&gt;Farewell 2020 and Happy New Year 2021&lt;/p&gt;
+&lt;p&gt;It is a difficulty year for almost everyone. The way we live and work has been completely changed. It is very likely that this new life-style, the post-covid era, will continue even when it all ends. However, this pandemic is also a valuable experience for everyone of us. It is only under such huge challenge that we discover the true meaning of life. We found that the most precious gift is our beloved ones. We found that we can develop new technologies to fight the great enemy of mankind. We found that if you try this new life, you may get new inspirations and new progresses.&lt;/p&gt;
+&lt;p&gt;Whatever, now we can say &lt;em&gt;Farewell 2020 and Happy New Year 2021&lt;/em&gt;. I hope all my friends will bring good luck to their lives.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://liang324.github.io/post/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://liang324.github.io/post/readme/</guid>
+      <description>&lt;h1 id=&#34;installation&#34;&gt;Installation&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Install Choco using powershell&lt;/li&gt;
+&lt;li&gt;Install golang and hugo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;wowchemys-research-group-template-for-hugohttpsgithubcomgohugoiohugo&#34;&gt;Wowchemy&amp;rsquo;s Research Group Template for &lt;a href=&#34;https://github.com/gohugoio/hugo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;The &lt;strong&gt;Research Group Template&lt;/strong&gt; empowers your research group to easily create a beautiful website with a stunning homepage, news, academic publications, events, team profiles, and a contact form.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://research-group.netlify.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest demo&lt;/a&gt; of what you&amp;rsquo;ll get in less than 5 minutes, or &lt;a href=&#34;https://wowchemy.com/user-stories/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the showcase&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://wowchemy.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Wowchemy&lt;/strong&gt;&lt;/a&gt; makes it easy to create a beautiful website for free. Edit your site in Markdown, Jupyter, or RStudio (via Blogdown), generate it with Hugo, and deploy with GitHub or Netlify. Customize anything on your site with widgets, themes, and language packs.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;👉 &lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Get Started&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📚 &lt;a href=&#34;https://wowchemy.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;View the &lt;strong&gt;documentation&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💬 &lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;Wowchemy community&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/wowchemy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@wowchemy&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%28%23MadeWithWowchemy%20OR%20%23MadeWithAcademic%29&amp;amp;src=typed_query&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithWowchemy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💡 &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Wowchemy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;⬆️ &lt;strong&gt;Updating Wowchemy?&lt;/strong&gt; View the &lt;a href=&#34;https://wowchemy.com/docs/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Guide&lt;/a&gt; and &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
+&lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
+&lt;h3 id=&#34;-click-here-to-unlock-rewards-with-sponsorshiphttpswowchemycomsponsor&#34;&gt;&lt;a href=&#34;https://wowchemy.com/sponsor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to unlock rewards with sponsorship&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/wowchemy/hugo-academic-cli/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Academic CLI&lt;/a&gt;:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./preview.png&#34; alt=&#34;Screenshot&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;demo-credits&#34;&gt;Demo Credits&lt;/h2&gt;
+&lt;p&gt;Please replace the demo images with your own.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://unsplash.com/photos/uVnRa6mOLOM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Female scientist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://unsplash.com/photos/kwzWjTnDPLk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2 Coders&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://unsplash.com/photos/RnDGGnMEOao&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cafe&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Blog posts
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://unsplash.com/photos/AndE50aaHn4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://unsplash.com/photos/AndE50aaHn4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://unsplash.com/photos/OYzbqk2y26c&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://unsplash.com/photos/OYzbqk2y26c&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Avatars
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://unsplash.com/photos/5yENNRbbat4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://unsplash.com/photos/5yENNRbbat4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://unsplash.com/photos/WNoLnJo7tS8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://unsplash.com/photos/WNoLnJo7tS8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/igrigorik/ga-beacon&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://ga-beacon.appspot.com/UA-78646709-2/starter-research-group/readme?pixel&#34; alt=&#34;Analytics&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

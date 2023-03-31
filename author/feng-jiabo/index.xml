@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FENG Jiabo | 上海机器人研究所</title>
+    <link>https://liang324.github.io/author/feng-jiabo/</link>
+      <atom:link href="https://liang324.github.io/author/feng-jiabo/index.xml" rel="self" type="application/rss+xml" />
+    <description>FENG Jiabo</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2020-2023 liang324</copyright><lastBuildDate>Mon, 01 May 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liang324.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>FENG Jiabo</title>
+      <link>https://liang324.github.io/author/feng-jiabo/</link>
+    </image>
+    
+    <item>
+      <title>Design of a standalone joint module toward real EAST in-vessel operation use</title>
+      <link>https://liang324.github.io/publication/du2017design/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://liang324.github.io/publication/du2017design/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

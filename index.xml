@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>上海机器人研究所</title>
+    <link>https://liang324.github.io/</link>
+      <atom:link href="https://liang324.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>上海机器人研究所</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2020-2023 liang324</copyright><lastBuildDate>Sun, 17 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liang324.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>上海机器人研究所</title>
+      <link>https://liang324.github.io/</link>
+    </image>
+    
+    <item>
+      <title>盾构机自动换刀机器人</title>
+      <link>https://liang324.github.io/robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/</link>
+      <pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://liang324.github.io/robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/</guid>
+      <description>&lt;p&gt;盾构机是现代隧道掘进施工过程中不可或缺的大型自动化装备。然而在对硬质地层进行施工导致刀具频繁发生磨损时，国内外仍然普遍采用传统方式深入地下进行人工换刀。换刀过程伴随着高气压、地层塌方、危险气体等多重恶劣环境危险因素影响，加之刀具质量大、作业环境密闭狭窄等负面特征，人工换刀造成的伤亡事故在全世界范围频频发生。因此采用自动化方案代替人工换刀迫在眉睫。&lt;/p&gt;
+&lt;p&gt;本实验室对于盾构机换刀机器人的研究取得了如下成果：&lt;/p&gt;
+&lt;p&gt;(1)	根据盾构机内部空间以及工作任务需求设计了相应的自动换刀机器人系统，包括系统自由度的确定、各关节构型、动力元器件选型以及强度校核等；&lt;/p&gt;
+&lt;p&gt;(2)	实现盾构机自动换刀机器人的电气系统设计，并为上下位机编写相应的控制程序（图1）；
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-图1电气系统设计示意图&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;图1.电气系统设计示意图&#34; srcset=&#34;
+               /robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hu4fe1485f50fae2148ebb198eafb158ba_44637_215ac59188c5405f258c6ab1da2f328b.webp 400w,
+               /robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hu4fe1485f50fae2148ebb198eafb158ba_44637_e72326dbc651a06f2144517e63a24568.webp 760w,
+               /robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hu4fe1485f50fae2148ebb198eafb158ba_44637_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://liang324.github.io/robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hu4fe1485f50fae2148ebb198eafb158ba_44637_215ac59188c5405f258c6ab1da2f328b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;404&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      图1.电气系统设计示意图
+    &lt;/figcaption&gt;&lt;/figure&gt;
+(3)	通过对盾构机自动换刀机器人进行数学建模，完成相应运动学正逆解以及相应的轨迹设计（图2）；
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-图2盾构机自动换刀机器人数字模型&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;图2.盾构机自动换刀机器人数字模型&#34; srcset=&#34;
+               /robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hu6b2972143a98cf9706d1847784d008c3_384739_8e2ae4c96802fec92a141c08158e9cd7.webp 400w,
+               /robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hu6b2972143a98cf9706d1847784d008c3_384739_d7e1753b76731ca6f8f95c098b345deb.webp 760w,
+               /robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hu6b2972143a98cf9706d1847784d008c3_384739_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://liang324.github.io/robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hu6b2972143a98cf9706d1847784d008c3_384739_8e2ae4c96802fec92a141c08158e9cd7.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;329&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      图2.盾构机自动换刀机器人数字模型
+    &lt;/figcaption&gt;&lt;/figure&gt;
+(4)	基于模拟的盾构机测试环境，针对样机进行相应的测试（图3）。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-图3样机测试&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;图3.样机测试&#34; srcset=&#34;
+               /robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image3_huf4d07b1a5766a0508e235b3f4262863b_1107346_557a5a28df5c1f515c437e7af7a1a09a.webp 400w,
+               /robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image3_huf4d07b1a5766a0508e235b3f4262863b_1107346_5d94f9610e480da000c97e45df85a726.webp 760w,
+               /robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image3_huf4d07b1a5766a0508e235b3f4262863b_1107346_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://liang324.github.io/robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image3_huf4d07b1a5766a0508e235b3f4262863b_1107346_557a5a28df5c1f515c437e7af7a1a09a.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;394&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      图3.样机测试
+    &lt;/figcaption&gt;&lt;/figure&gt;
+经过模拟的实验环境，验证了所设计的盾构机自动换刀机器人的可行性，整体操作过程中，无明显机械结构方面的问题，上下位在控制过程中能够顺利的完成相应操作命令，能够实现完整的换刀流程，为实现盾构机的进一步自动化做出了突出贡献。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>管道机器人</title>
+      <link>https://liang324.github.io/robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/</link>
+      <pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://liang324.github.io/robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/</guid>
+      <description>&lt;p&gt;钻井平台中的水泥会在放喷管外表面堆积，野外的泥土也会堆积在放喷管外表面，当放喷管表面的油漆剥落后，表面会有大量的铁屑。因此可知，放喷管外表面的杂质主要有：水泥、泥土、铁锈等，杂质堆积后会增大后续无损检测探头的提离值，当探头工作在动态提离时检测信号差，易发生漏检，危害钻井现场的安全，因此打磨装置的主要作用是去除放喷管外表面的水泥、泥土等体积较大的杂质。&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-图1管道外打磨作业任务&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;图1.管道外打磨作业任务&#34; srcset=&#34;
+               /robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hua0087972baccffc6bcbc748cc7ce53eb_203448_5cd823adac0b0038fa7d3b6895a50752.webp 400w,
+               /robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hua0087972baccffc6bcbc748cc7ce53eb_203448_f621e92c773fe16fdaf875ff04303f8f.webp 760w,
+               /robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hua0087972baccffc6bcbc748cc7ce53eb_203448_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://liang324.github.io/robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hua0087972baccffc6bcbc748cc7ce53eb_203448_5cd823adac0b0038fa7d3b6895a50752.webp&#34;
+               width=&#34;427&#34;
+               height=&#34;156&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      图1.管道外打磨作业任务
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;目前，管道外壁附着的杂质基本上是机械式的手动去除（图1），工作条件差、强度高。现场维护以确保旧公用管道的正常工作是世界上大多数管道运输系统的做法。通过学术探索与工业转化的合作，我们的管道打磨机器人产品已经在几代的时间里从一个最初的概念发展到一个完全运行的机器人原型，用于在现场环境中预防性地维护管道外表面（图2）。&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-图2打磨作业机器人应用示范&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;图2.打磨作业机器人应用示范&#34; srcset=&#34;
+               /robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hu58b98ee0396bacd31ae08bd547aee834_55406_0b22565e7677a7de541fccfa98d5f6ac.webp 400w,
+               /robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hu58b98ee0396bacd31ae08bd547aee834_55406_afd09df3fc5ca5a9fb43c1a003f74dd5.webp 760w,
+               /robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hu58b98ee0396bacd31ae08bd547aee834_55406_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://liang324.github.io/robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hu58b98ee0396bacd31ae08bd547aee834_55406_0b22565e7677a7de541fccfa98d5f6ac.webp&#34;
+               width=&#34;409&#34;
+               height=&#34;324&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      图2.打磨作业机器人应用示范
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;研究创新点：
+1、设计了一种被动前进的强量化打磨装置，在放喷管线的两端布置驱动辊轮，驱动辊轮不需要前后运动。在放喷管线上安装带有倾斜角度的被动辊轮，依靠摩擦力实现了打磨装置的直线前进，避免了在打磨装置中安装驱动电机，从而大大减轻了打磨装置的重量，实现了轻量化设计，降低了操作工人的劳动强度。
+2、采用母线跟踪式螺旋打磨方法，一对打磨轮呈周向错开布置的工作方式，避免了打磨盲区的产生，实现全覆盖打磨。其中两个打磨轮转动方向相反，打磨轮产生的周向摩擦力互相抵消，避免了打磨轮摩擦力过大造成打磨机构难以前进，即可实现高效打磨又可降低前进的驱动力。
+3、考虑到被打磨放喷直管线表面有水泥和泥土等杂质后其外径会发生变化，固定式的打磨轮难以满足要求，故本装置采用浮动式打磨轮替代固定式打磨轮，通过弹性铰链的作用，使得打磨轮能够与被打磨放喷直管线的母线实时接触，避免了打磨盲区的产生。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>脊髓损伤康复机器人</title>
+      <link>https://liang324.github.io/robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/</link>
+      <pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://liang324.github.io/robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/</guid>
+      <description>&lt;p&gt;脊髓损伤（spinal cord injury, SCI）是一种严重致残性疾病，常造成截瘫或四肢瘫，会对患者感觉功能、运动功能以及自主神经功能造成影响。SCI 会导致多种并发症，如压疮、肺部感染、尿路感染，并最终造成患者期望寿命的缩短。&lt;/p&gt;
+&lt;p&gt;目前，针对脊髓损伤患者的治疗医学界主要采取康复训练进行治疗，传统的康复训练是治疗师根据自身主观经验，对患者进行人工手动康复运动，康复动作具有重复性高，动作简单的特点。但这种传统的康复训练方式也存在着治疗师易感疲劳，治疗师的水平不一、缺乏客观评价，难以达到高水准的治疗效果等缺点。另外，我国康复医疗现状滞后，设有康复治疗的医院偏少，而且存在着康复治疗师配备不足等问题，这也加剧了脊髓损伤治疗需求与康复资源不足的矛盾。随着现代康复医学和机器人技术的发展，采用康复机器人代替人工方式恢复脊髓损伤患者肢体运动功能成为可能，并且可有效解决人工方式的效率低、效果差的问题。
+本课题旨在研制与脊髓损伤康复机器人机械结构适配的电气控制系统样机，采用模块化集成设计，实现“坐-躺-站”多体位一体化四肢多模式康复训练功能，研究并制定脊髓损伤康复机器人工作过程中的运动安全保护机制，提高机器人辅助康复的安全性和舒适性。
+本课题已完成康复机器人控制系统从理论到实物的整体系统开发。控制系统分为硬件系统和软件系统，其中硬件系统为一个电气控制柜，如图1所示，软件系统为一个Windows桌面软件，如图2、图3所示。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-图1康复机器人上下肢电气控制柜&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;图1.康复机器人上、下肢电气控制柜&#34; srcset=&#34;
+               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hu4f4b178fa12fcb2a663e8bbbed6c32f5_1365746_b1d90045fed1a34109d74f3edded9c7c.webp 400w,
+               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hu4f4b178fa12fcb2a663e8bbbed6c32f5_1365746_138d663dc7161038b83e233df55c42d7.webp 760w,
+               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hu4f4b178fa12fcb2a663e8bbbed6c32f5_1365746_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://liang324.github.io/robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hu4f4b178fa12fcb2a663e8bbbed6c32f5_1365746_b1d90045fed1a34109d74f3edded9c7c.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;498&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      图1.康复机器人上、下肢电气控制柜
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-图2上肢康复机器人训练界面&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;图2.上肢康复机器人训练界面&#34; srcset=&#34;
+               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hudeb9e51e092c06c805065b4060eb6113_37292_c85dbf04b436a99c1c0ff4a26556c88e.webp 400w,
+               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hudeb9e51e092c06c805065b4060eb6113_37292_050c39742d28dd63df3ea9dd6957003d.webp 760w,
+               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hudeb9e51e092c06c805065b4060eb6113_37292_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://liang324.github.io/robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hudeb9e51e092c06c805065b4060eb6113_37292_c85dbf04b436a99c1c0ff4a26556c88e.webp&#34;
+               width=&#34;711&#34;
+               height=&#34;389&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      图2.上肢康复机器人训练界面
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-图3下肢康复机器人训练界面&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;图3.下肢康复机器人训练界面&#34; srcset=&#34;
+               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image3_hue3845ce0a1a0850a716bf4103da4dff8_42161_c494d9b49a7125a34bdab06b3d23090b.webp 400w,
+               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image3_hue3845ce0a1a0850a716bf4103da4dff8_42161_971d3b61d26551bbcd2c6b39b0945e47.webp 760w,
+               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image3_hue3845ce0a1a0850a716bf4103da4dff8_42161_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://liang324.github.io/robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image3_hue3845ce0a1a0850a716bf4103da4dff8_42161_c494d9b49a7125a34bdab06b3d23090b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;410&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      图3.下肢康复机器人训练界面
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;在硬件系统方面，结合国家医用电气设备电磁兼容要求和安全规范两个方面完成了硬件选型、整体布局和走线设计等内容，实现了模块化系统集成的要求。在软件系统方面，利用Visual Studio集成开发环境，基于Winform技术实现了软件上位机界面、中位机通信和下位机底层控制算法的开发与集成，实现了上下肢康复机器人多功能系统集成的要求。
+脊髓损伤康复机器人的首要功能是康复训练。本样机具有丰富的训练方式，上下肢康复机器人可进行拆分和组合训练。当上下肢康复机器人处于拆分状态时，上肢康复机器人具有单关节训练、多关节训练和轨迹训练三种模式，下肢康复机器人具有单关节训练、轨迹训练和平衡训练三种模式。当上下肢康复机器人处于组合状态时，可进行摆臂步行联动训练，旨在提高患者训练的真实性和趣味性，帮助患者重新体验正常走路的感觉。每种训练模式均可根据医生的对患者情况的判断设定训练参数，训练参数包括训练次数、训练周期和训练幅度，以帮助患者进行更有效率的康复训练。康复机器人训练过程如图4所示。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-图4脊髓损伤康复机器人训练过程&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;图4.脊髓损伤康复机器人训练过程&#34; srcset=&#34;
+               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image4_hu111d0676e8af490f0621da51a6ffa849_947051_a6265b9f868c36cc10ff0843ae770451.webp 400w,
+               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image4_hu111d0676e8af490f0621da51a6ffa849_947051_08e69bb49c4afa3589f67cf624a3c8cf.webp 760w,
+               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image4_hu111d0676e8af490f0621da51a6ffa849_947051_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://liang324.github.io/robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image4_hu111d0676e8af490f0621da51a6ffa849_947051_a6265b9f868c36cc10ff0843ae770451.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;496&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      图4.脊髓损伤康复机器人训练过程
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Next stage with SHU</title>
+      <link>https://liang324.github.io/post/21-01-29-next-stage/</link>
+      <pubDate>Fri, 29 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://liang324.github.io/post/21-01-29-next-stage/</guid>
+      <description>&lt;p&gt;Dr. DU Liang has got a job offer as lecturer from the Shanghai University.&lt;/p&gt;
+&lt;p&gt;Dr. DU Liang is expected to finish his contract with the R-GIRO program in Ritsumeikan University, Japan by this March. Now, he got a new job offer as lecturer from the Shanghai University, Shanghai, China. He will work with the Shanghai Key Laboratory of Intelligent Manufacturing and Robotics, School of Mechatronic Engineering and Automation after returning China.&lt;/p&gt;
+&lt;p&gt;Shanghai University (commonly referred to as SHU, or colloquially Shangda (Chinese: 上大; pinyin: Shàngdà)) is a public research university located in Shanghai. The 555-acre main Baoshan campus is situated in the north of Shanghai, and there are two other campuses in Jiading and Jing&amp;rsquo;an. Shanghai University is amongst the list of Project 211 for top national universities. &lt;a href=&#34;https://en.wikipedia.org/wiki/Shanghai_University&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(cited from Wikipedia)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Shanghai Key Laboratory of Intelligent Manufacturing and Robotics is one famous research team in robot field in China. Their research includes industrial automation, robots for health care, robots for farming, and basic robotic theories.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Happy New Year 2021</title>
+      <link>https://liang324.github.io/post/20-12-31-happy-new-year/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://liang324.github.io/post/20-12-31-happy-new-year/</guid>
+      <description>&lt;p&gt;Farewell 2020 and Happy New Year 2021&lt;/p&gt;
+&lt;p&gt;It is a difficulty year for almost everyone. The way we live and work has been completely changed. It is very likely that this new life-style, the post-covid era, will continue even when it all ends. However, this pandemic is also a valuable experience for everyone of us. It is only under such huge challenge that we discover the true meaning of life. We found that the most precious gift is our beloved ones. We found that we can develop new technologies to fight the great enemy of mankind. We found that if you try this new life, you may get new inspirations and new progresses.&lt;/p&gt;
+&lt;p&gt;Whatever, now we can say &lt;em&gt;Farewell 2020 and Happy New Year 2021&lt;/em&gt;. I hope all my friends will bring good luck to their lives.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>A Robotic Gripper Design and Integrated Solution Towards Tunnel Boring Construction Equipment</title>
+      <link>https://liang324.github.io/publication/yuan2020robotic/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://liang324.github.io/publication/yuan2020robotic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design and experimental tests of an active cooling system for a kind of in-vessel inspection manipulator</title>
+      <link>https://liang324.github.io/publication/du2020design/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://liang324.github.io/publication/du2020design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paper Made Grippers for Soft Food Grasping</title>
+      <link>https://liang324.github.io/publication/ma2020paper/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://liang324.github.io/publication/ma2020paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A teleoperated robotic hot stick platform for the overhead live powerline maintenance tasks</title>
+      <link>https://liang324.github.io/publication/du2019teleoperated/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://liang324.github.io/publication/du2019teleoperated/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design of a standalone joint module toward real EAST in-vessel operation use</title>
+      <link>https://liang324.github.io/publication/du2017design/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://liang324.github.io/publication/du2017design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Active cooling system for Tokamak in-vessel operation manipulator</title>
+      <link>https://liang324.github.io/publication/yuan2015active/</link>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>https://liang324.github.io/publication/yuan2015active/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://liang324.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://liang324.github.io/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://liang324.github.io/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://liang324.github.io/introduction/</guid>
+      <description>&lt;h2 id=&#34;研究概况&#34;&gt;研究概况&lt;/h2&gt;
+&lt;p&gt;发展历史。&lt;/p&gt;
+&lt;p&gt;现状&lt;/p&gt;
+&lt;h2 id=&#34;研究内容&#34;&gt;研究内容&lt;/h2&gt;
+&lt;p&gt;研究内容安排以项目为导向，内容涉及移动机器人等多个方向。&lt;/p&gt;
+&lt;h3 id=&#34;移动机器人&#34;&gt;移动机器人&lt;/h3&gt;
+&lt;h3 id=&#34;康复机器人&#34;&gt;康复机器人&lt;/h3&gt;
+&lt;h3 id=&#34;腿足式机器人&#34;&gt;腿足式机器人&lt;/h3&gt;
+&lt;h2 id=&#34;研究生培养&#34;&gt;研究生培养&lt;/h2&gt;
+&lt;h2 id=&#34;毕业生&#34;&gt;毕业生&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;累计毕业硕士研究生 xx名，博士生 xx名&lt;/li&gt;
+&lt;li&gt;优秀毕业生 xx名&lt;/li&gt;
+&lt;li&gt;获奖 xx名&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;表格展示具体信息
+时间，姓名，毕业论文题目，去向&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://liang324.github.io/member/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://liang324.github.io/member/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://liang324.github.io/post/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://liang324.github.io/post/readme/</guid>
+      <description>&lt;h1 id=&#34;installation&#34;&gt;Installation&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Install Choco using powershell&lt;/li&gt;
+&lt;li&gt;Install golang and hugo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;wowchemys-research-group-template-for-hugohttpsgithubcomgohugoiohugo&#34;&gt;Wowchemy&amp;rsquo;s Research Group Template for &lt;a href=&#34;https://github.com/gohugoio/hugo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;The &lt;strong&gt;Research Group Template&lt;/strong&gt; empowers your research group to easily create a beautiful website with a stunning homepage, news, academic publications, events, team profiles, and a contact form.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://research-group.netlify.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest demo&lt;/a&gt; of what you&amp;rsquo;ll get in less than 5 minutes, or &lt;a href=&#34;https://wowchemy.com/user-stories/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the showcase&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://wowchemy.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Wowchemy&lt;/strong&gt;&lt;/a&gt; makes it easy to create a beautiful website for free. Edit your site in Markdown, Jupyter, or RStudio (via Blogdown), generate it with Hugo, and deploy with GitHub or Netlify. Customize anything on your site with widgets, themes, and language packs.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;👉 &lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Get Started&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📚 &lt;a href=&#34;https://wowchemy.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;View the &lt;strong&gt;documentation&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💬 &lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;Wowchemy community&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/wowchemy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@wowchemy&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%28%23MadeWithWowchemy%20OR%20%23MadeWithAcademic%29&amp;amp;src=typed_query&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithWowchemy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💡 &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Wowchemy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;⬆️ &lt;strong&gt;Updating Wowchemy?&lt;/strong&gt; View the &lt;a href=&#34;https://wowchemy.com/docs/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Guide&lt;/a&gt; and &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
+&lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
+&lt;h3 id=&#34;-click-here-to-unlock-rewards-with-sponsorshiphttpswowchemycomsponsor&#34;&gt;&lt;a href=&#34;https://wowchemy.com/sponsor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to unlock rewards with sponsorship&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/wowchemy/hugo-academic-cli/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Academic CLI&lt;/a&gt;:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./preview.png&#34; alt=&#34;Screenshot&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;demo-credits&#34;&gt;Demo Credits&lt;/h2&gt;
+&lt;p&gt;Please replace the demo images with your own.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://unsplash.com/photos/uVnRa6mOLOM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Female scientist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://unsplash.com/photos/kwzWjTnDPLk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2 Coders&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://unsplash.com/photos/RnDGGnMEOao&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cafe&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Blog posts
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://unsplash.com/photos/AndE50aaHn4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://unsplash.com/photos/AndE50aaHn4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://unsplash.com/photos/OYzbqk2y26c&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://unsplash.com/photos/OYzbqk2y26c&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Avatars
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://unsplash.com/photos/5yENNRbbat4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://unsplash.com/photos/5yENNRbbat4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://unsplash.com/photos/WNoLnJo7tS8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://unsplash.com/photos/WNoLnJo7tS8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/igrigorik/ga-beacon&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://ga-beacon.appspot.com/UA-78646709-2/starter-research-group/readme?pixel&#34; alt=&#34;Analytics&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://liang324.github.io/todo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://liang324.github.io/todo/</guid>
+      <description>&lt;h1 id=&#34;开发计划&#34;&gt;开发计划&lt;/h1&gt;
+&lt;h2 id=&#34;进度安排&#34;&gt;进度安排&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;9.30 完成框架搭建&lt;/li&gt;
+&lt;li&gt;10.30 初步上线&lt;/li&gt;
+&lt;li&gt;12.31 完成&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;todo-list&#34;&gt;TODO LIST&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;确定域名&lt;/li&gt;
+&lt;li&gt;确定网站平台，阿里云平台？dns解析？&lt;/li&gt;
+&lt;li&gt;完成实验室简介框架&lt;/li&gt;
+&lt;li&gt;完成项目介绍模板，包括图文格式，指导各个小组完成项目介绍及论文搜集。&lt;/li&gt;
+&lt;li&gt;页末导航方案&lt;/li&gt;
+&lt;li&gt;人员分类依据？研究组？年级？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;技术&#34;&gt;技术&lt;/h2&gt;
+&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;安装插件管理平台:  &lt;a href=&#34;https://chocolatey.org/install#individual&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://chocolatey.org/install#individual&lt;/a&gt;
+windows powershell: Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString(&amp;lsquo;&lt;a href=&#34;https://community.chocolatey.org/install.ps1%27&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://community.chocolatey.org/install.ps1&#39;&lt;/a&gt;))&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;安装 golang, hugo:
+windows powershell: choco install golang hugo-extended&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;试运行&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Markdown Editor: Typora : &lt;a href=&#34;https://sspai.com/post/54912&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://sspai.com/post/54912&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;网站模板：https://wowchemy.com/docs/content/page-features/&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
